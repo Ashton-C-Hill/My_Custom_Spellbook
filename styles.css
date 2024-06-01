@@ -1,19 +1,31 @@
 /* Site */
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /* Spells */
+.spell {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
 
 /* Spell Top */
 .spell_top {
     justify-content: center;
+    align-items: center;
     background-color: #B9CAEE;
-
     display: flex;
 }
 
 .spell_top p {
     margin: 10px;
+}
+
+/* Spell Desc */
+.spell_desc {
+    display: none;
 }
