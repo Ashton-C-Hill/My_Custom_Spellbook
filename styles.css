@@ -1,35 +1,42 @@
-/* Site */
+
 body {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#spell_template {
-    display: none;
+h3 {
+    background-color: #d3dbeb;
+    text-align: center;
+    width: 60vw;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+    margin: 0px;
 }
 
-/* Spells */
 .spell {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 60vw;
+    align-items: left;
+    margin: 0px;
 }
 
-/* Spell Top */
 .spell_top {
-    justify-content: center;
-    align-items: center;
-    background-color: #B9CAEE;
     display: flex;
+    background-color: white;
 }
 
-.spell_top p {
+.odd {
+    background-color: rgb(245, 245, 245);
+}
+
+.spell_top * {
     margin: 10px;
 }
 
-/* Spell Desc */
 .spell_desc {
     display: none;
+    padding: 5px;
 }
