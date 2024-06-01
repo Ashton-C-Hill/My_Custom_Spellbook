@@ -1,0 +1,19 @@
+/* Site */
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/* Spells */
+
+/* Spell Top */
+.spell_top {
+    justify-content: center;
+    background-color: #B9CAEE;
+
+    display: flex;
+}
+
+.spell_top p {
+    margin: 10px;
+}
