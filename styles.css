@@ -6,6 +6,10 @@ body {
     align-items: center;
 }
 
+#spell_template {
+    display: none;
+}
+
 /* Spells */
 .spell {
     display: flex;
