@@ -3,7 +3,6 @@ body {
     display: flex; 
     flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
 
 #spellbook {
@@ -64,4 +63,14 @@ h3 {
 .spell_desc {
     display: none;
     padding: 5px;
+}
+
+aside {
+    position: fixed;
+    right: 0px;
+    top: 15px;
+}
+
+#aside_expandable {
+    display: none;
 }

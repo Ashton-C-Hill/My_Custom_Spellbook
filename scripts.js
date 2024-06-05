@@ -8,3 +8,12 @@ buttons.forEach((button) => {button.addEventListener("click", () => {
         desc.style.display = "block"
     }
 })})
+
+document.getElementById("aside_toggle").addEventListener("click", () => {
+    const expandable = document.getElementById("aside_expandable")
+    if (expandable.style.display === "block") {
+        expandable.style.display = "none"
+    } else {
+        expandable.style.display = "block"
+    }
+})
