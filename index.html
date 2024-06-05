@@ -8,293 +8,296 @@
         <script src="scripts.js" defer></script>
     </head>
     <body id="body">
-        <h3 class="game_info">
-            <div>
-                Spellcasting Modifier 
-                <input />
-            </div> 
-            <div>
-                Spell Save DC 
-                <input />
+        <div id="spellbook">
+            <h3 class="game_info">
+                <div>
+                    Spellcasting Modifier 
+                    <input />
+                </div> 
+                <div>
+                    Spell Save DC 
+                    <input />
+                </div>
+            </h3>
+    
+            <h3>Cantrips</h3>
+    
+            <div class="spell">
+                <div class="spell_top">
+                    <p>Create Bonfire</p>
+                    <p>Conjuration</p>
+                    <p>1 action</p>
+                    <p>60 feet</p>
+                    <p>V, S</p>
+                    <p>Concentration, up to 1 minute</p>
+                    <p>1d8 fire damage (dex save)</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc">
+                    <p>You create a bonfire on ground that you can see within range. Until the spell ends, the bonfire fills a 5-foot cube. Any creature in the bonfire’s space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it enters the bonfire’s space for the first time on a turn or ends its turn there.</p>
+                    <p><i><b>At Higher Levels.</b></i> The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+                    <p><i><b>Spell Lists.</b></i> Artificer, Druid, Sorcerer, Warlock, Wizard</p>
+                </div>
             </div>
-        </h3>
-
-        <h3>Cantrips</h3>
-
-        <div class="spell">
-            <div class="spell_top">
-                <p>Create Bonfire</p>
-                <p>Conjuration</p>
-                <p>1 action</p>
-                <p>60 feet</p>
-                <p>V, S</p>
-                <p>Concentration, up to 1 minute</p>
-                <p>1d8 fire damage (dex save)</p>
-                <button class="desc_button">Desc</button>
+    
+            <div class="spell">
+                <div class="spell_top odd">
+                    <p>Ray of Frost</p>
+                    <p>Evocation</p>
+                    <p>1 action</p>
+                    <p>60 feet</p>
+                    <p>V, S</p>
+                    <p>Instantaneous</p>
+                    <p>1d8 cold damage</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc odd">
+                    <p>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.</p>
+                    <p><i><b>At Higher Levels.</b></i> The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+                    <p><i><b>Spell Lists.</b></i> Artificer, Sorcerer, Wizard</p>
+                </div>
             </div>
-            <div class="spell_desc">
-                <p>You create a bonfire on ground that you can see within range. Until the spell ends, the bonfire fills a 5-foot cube. Any creature in the bonfire’s space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it enters the bonfire’s space for the first time on a turn or ends its turn there.</p>
-                <p><i><b>At Higher Levels.</b></i> The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
-                <p><i><b>Spell Lists.</b></i> Artificer, Druid, Sorcerer, Warlock, Wizard</p>
+    
+            <div class="spell">
+                <div class="spell_top">
+                    <p>Conjure Element</p>
+                    <p>Conjuration</p>
+                    <p>1 action</p>
+                    <p>Self</p>
+                    <p>S</p>
+                    <p>1 Hour</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc">
+                    <p> Summon a small amount of Fire, Water, Earth, Steel, or Lightning into the palm of your hand. The summoned element dissapears 1 hour after casting or until dispelled.</p>
+                    <p><i><b>Spell Lists.</b></i> Wizard</p>
+                </div>
+            </div>
+    
+    
+    
+            <h3>1st Level</h3>
+    
+            <h3 class="game_info">
+                <div>
+                    Total Spell Slots
+                    <input />
+                </div>
+                <div>
+                    Used Spell Slots
+                    <input />
+                </div>
+            </h3>
+    
+            <div class="spell">
+                <div class="spell_top">
+                    <input type="checkbox" checked/>
+                    <p>Ice Knife</p>
+                    <p>Conjuration</p>
+                    <p>1 action</p>
+                    <p>60 feet</p>
+                    <p>S, M (a drop of water or piece of ice)</p>
+                    <p>Instantaneous</p>
+                    <p>1d10 piercing damage</p>
+                    <p>2d6 cold damage (dex save)</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc">
+                    <p>You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of the point where the ice exploded must succeed on a Dexterity saving throw or take 2d6 cold damage.</p>
+                    <p><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.</p>
+                    <p><i><b>Spell Lists.</b></i> Druid, Sorcerer, Wizard</p>
+                </div>
+            </div>
+    
+            <div class="spell">
+                <div class="spell_top odd">
+                    <input type="checkbox" checked/>
+                    <p>Magic Missile</p>
+                    <p>Evocation</p>
+                    <p>1 action</p>
+                    <p>120 feet</p>
+                    <p>V, S</p>
+                    <p>Instantaneous</p>
+                    <p>1d4+1 force damage</p>
+                    <p>3d4+3 force damage total</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc odd">
+                    <p>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously and you can direct them to hit one creature or several.</p>
+                    <p><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</p>
+                    <p><i><b>Spell Lists.</b></i> Sorcerer, Wizard</p>
+                </div>
+            </div>
+    
+            <div class="spell">
+                <div class="spell_top">
+                    <input type="checkbox" checked/>
+                    <p>Shield</p>
+                    <p>Abjuration</p>
+                    <p>1 reaction</p>
+                    <p>self</p>
+                    <p>V, S</p>
+                    <p>1 round</p>
+                    <p>+5 AC</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc">
+                    <p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.</p>
+                    <p><i><b>Spell Lists.</b></i> Sorcerer, Wizard</p>
+                </div>
+            </div>
+    
+            <div class="spell">
+                <div class="spell_top odd">
+                    <input type="checkbox"/>
+                    <p>Grease</p>
+                    <p>Conjuration</p>
+                    <p>1 action</p>
+                    <p>60 feet</p>
+                    <p>V, S, M (a bit of pork rind or butter)</p>
+                    <p>1 minute</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc odd">
+                    <p>Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.</p>
+                    <p>When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.</p>
+                    <p><i><b>Spell Lists.</b></i> Artificer, Sorcerer (Optional), Wizard</p>
+                </div>
+            </div>
+    
+    
+            <div class="spell">
+                <div class="spell_top">
+                    <input type="checkbox" checked/>
+                    <p>Jump</p>
+                    <p>Transmutation</p>
+                    <p>1 action</p>
+                    <p>touch</p>
+                    <p>V, S, M (a grasshopper's hind leg)</p>
+                    <p>1 minute</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc">
+                    <p>You touch a creature. The creature’s jump distance is tripled until the spell ends.</p>
+                    <p><i><b>Spell Lists.</b></i> Artificer, Druid, Ranger, Sorcerer, Wizard</p>
+                </div>
+            </div>
+    
+            <div class="spell">
+                <div class="spell_top odd">
+                    <input type="checkbox" checked/>
+                    <p>Puffy Cloud</p>
+                    <p>Conjuration</p>
+                    <p>1 reaction</p>
+                    <p>120 feet</p>
+                    <p>V, S</p>
+                    <p>1 Minute</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc odd">
+                    <p>You create a 20-foot-radius cloud centered on a point you can see. The cloud negates the fall damage of any creature who lands on it. It last for the duration or until a wind of moderate or greater speed (at least 20 miles per hour) disperses it.</p>
+                    <p><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 2nd level or higher, the radius of the cloud increases by 20 feet for each level above 1st</p>
+                    <p><i><b>Spell Lists.</b></i> Wizard</p>
+                </div>
+            </div>
+    
+            <div class="spell">
+                <div class="spell_top">
+                    <input type="checkbox"/>
+                    <p>Chromatic Orb</p>
+                    <p>Evocation</p>
+                    <p>1 action</p>
+                    <p>90 feet</p>
+                    <p>V, S, M (a diamond worth at least 50gp)</p>
+                    <p>Instantaneous</p>
+                    <p>1d10 piercing damage</p>
+                    <p>2d6 cold damage (dex save)</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc">
+                    <p>You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose.</p>
+                    <p><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
+                    <p><i><b>Spell Lists.</b></i> Sorcerer, Wizard</p>
+                </div>
+            </div>
+    
+            <div class="spell">
+                <div class="spell_top odd">
+                    <input type="checkbox" checked/>
+                    <p>Alarm</p>
+                    <p>Abjuration</p>
+                    <p>1 minute (ritual)</p>
+                    <p>30 feet</p>
+                    <p>V, S, M (a tiny bell and a piece of silver wire)</p>
+                    <p>8 hours</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc odd">
+                    <p>You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won’t set off the alarm. You also choose whether the alarm is mental or audible.</p>
+                    <p>A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.</p>
+                    <p><i><b>Spell Lists.</b></i> Artificer, Ranger, Wizard</p>
+                </div>
+            </div>
+    
+            <div class="spell">
+                <div class="spell_top">
+                    <input type="checkbox"/>
+                    <p>Find Familiar</p>
+                    <p>Conjuration</p>
+                    <p>1 hour (ritual)</p>
+                    <p>10 feet</p>
+                    <p>V, S, M (10gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass bradier)</p>
+                    <p>Instantaneous</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc">
+                    <p>You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.</p>
+                    <p>Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can’t attack, but it can take other actions as normal.</p>
+                    <p>When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. As an action, you can temporarily dismiss your familiar to a pocket dimension. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. Whenever the familiar drops to 0 hit points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.</p>
+                    <p>While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses.</p>
+                    <p>You can’t have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.</p>
+                    <p>Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll.</p>
+                    <p><i><b>Spell Lists.</b></i> Wizard</p>
+                </div>
+            </div>
+    
+    
+    
+            <h3>2nd Level</h3>
+    
+            <h3 class="game_info">
+                <div>
+                    Total Spell Slots
+                    <input />
+                </div>
+                <div>
+                    Used Spell Slots
+                    <input />
+                </div>
+            </h3>
+    
+            <div class="spell">
+                <div class="spell_top">
+                    <input type="checkbox" checked/>
+                    <p>Flaming Sphere</p>
+                    <p>Conjuration</p>
+                    <p>1 action</p>
+                    <p>60 feet</p>
+                    <p>V, S, M (a bit of tallow, a pinch of brimstone, and a dusting of powerdered iron)</p>
+                    <p>Concentration, up to 1 minute</p>
+                    <p>2d6 fire damage (dex save)</p>
+                    <button class="desc_button">Desc</button>
+                </div>
+                <div class="spell_desc">
+                    <p>A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.</p>
+                    <p>As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere’s damage, and the sphere stops moving this turn.</p>
+                    <p>When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.</p>
+                    <p><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
+                    <p><i><b>Spell Lists.</b></i> Druid, Sorcerer (Optional), Wizard</p>
+                </div>
             </div>
         </div>
 
-        <div class="spell">
-            <div class="spell_top odd">
-                <p>Ray of Frost</p>
-                <p>Evocation</p>
-                <p>1 action</p>
-                <p>60 feet</p>
-                <p>V, S</p>
-                <p>Instantaneous</p>
-                <p>1d8 cold damage</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc odd">
-                <p>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.</p>
-                <p><i><b>At Higher Levels.</b></i> The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
-                <p><i><b>Spell Lists.</b></i> Artificer, Sorcerer, Wizard</p>
-            </div>
-        </div>
-
-        <div class="spell">
-            <div class="spell_top">
-                <p>Conjure Element</p>
-                <p>Conjuration</p>
-                <p>1 action</p>
-                <p>Self</p>
-                <p>S</p>
-                <p>1 Hour</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc">
-                <p> Summon a small amount of Fire, Water, Earth, Steel, or Lightning into the palm of your hand. The summoned element dissapears 1 hour after casting or until dispelled.</p>
-                <p><i><b>Spell Lists.</b></i> Wizard</p>
-            </div>
-        </div>
-
-
-
-        <h3>1st Level</h3>
-
-        <h3 class="game_info">
-            <div>
-                Total Spell Slots
-                <input />
-            </div>
-            <div>
-                Used Spell Slots
-                <input />
-            </div>
-        </h3>
-
-        <div class="spell">
-            <div class="spell_top">
-                <input type="checkbox" checked/>
-                <p>Ice Knife</p>
-                <p>Conjuration</p>
-                <p>1 action</p>
-                <p>60 feet</p>
-                <p>S, M (a drop of water or piece of ice)</p>
-                <p>Instantaneous</p>
-                <p>1d10 piercing damage</p>
-                <p>2d6 cold damage (dex save)</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc">
-                <p>You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of the point where the ice exploded must succeed on a Dexterity saving throw or take 2d6 cold damage.</p>
-                <p><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.</p>
-                <p><i><b>Spell Lists.</b></i> Druid, Sorcerer, Wizard</p>
-            </div>
-        </div>
-
-        <div class="spell">
-            <div class="spell_top odd">
-                <input type="checkbox" checked/>
-                <p>Magic Missile</p>
-                <p>Evocation</p>
-                <p>1 action</p>
-                <p>120 feet</p>
-                <p>V, S</p>
-                <p>Instantaneous</p>
-                <p>1d4+1 force damage</p>
-                <p>3d4+3 force damage total</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc odd">
-                <p>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously and you can direct them to hit one creature or several.</p>
-                <p><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</p>
-                <p><i><b>Spell Lists.</b></i> Sorcerer, Wizard</p>
-            </div>
-        </div>
-
-        <div class="spell">
-            <div class="spell_top">
-                <input type="checkbox" checked/>
-                <p>Shield</p>
-                <p>Abjuration</p>
-                <p>1 reaction</p>
-                <p>self</p>
-                <p>V, S</p>
-                <p>1 round</p>
-                <p>+5 AC</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc">
-                <p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.</p>
-                <p><i><b>Spell Lists.</b></i> Sorcerer, Wizard</p>
-            </div>
-        </div>
-
-        <div class="spell">
-            <div class="spell_top odd">
-                <input type="checkbox"/>
-                <p>Grease</p>
-                <p>Conjuration</p>
-                <p>1 action</p>
-                <p>60 feet</p>
-                <p>V, S, M (a bit of pork rind or butter)</p>
-                <p>1 minute</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc odd">
-                <p>Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.</p>
-                <p>When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.</p>
-                <p><i><b>Spell Lists.</b></i> Artificer, Sorcerer (Optional), Wizard</p>
-            </div>
-        </div>
-
-
-        <div class="spell">
-            <div class="spell_top">
-                <input type="checkbox" checked/>
-                <p>Jump</p>
-                <p>Transmutation</p>
-                <p>1 action</p>
-                <p>touch</p>
-                <p>V, S, M (a grasshopper's hind leg)</p>
-                <p>1 minute</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc">
-                <p>You touch a creature. The creature’s jump distance is tripled until the spell ends.</p>
-                <p><i><b>Spell Lists.</b></i> Artificer, Druid, Ranger, Sorcerer, Wizard</p>
-            </div>
-        </div>
-
-        <div class="spell">
-            <div class="spell_top odd">
-                <input type="checkbox" checked/>
-                <p>Puffy Cloud</p>
-                <p>Conjuration</p>
-                <p>1 reaction</p>
-                <p>120 feet</p>
-                <p>V, S</p>
-                <p>1 Minute</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc odd">
-                <p>You create a 20-foot-radius cloud centered on a point you can see. The cloud negates the fall damage of any creature who lands on it. It last for the duration or until a wind of moderate or greater speed (at least 20 miles per hour) disperses it.</p>
-                <p><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 2nd level or higher, the radius of the cloud increases by 20 feet for each level above 1st</p>
-                <p><i><b>Spell Lists.</b></i> Wizard</p>
-            </div>
-        </div>
-
-        <div class="spell">
-            <div class="spell_top">
-                <input type="checkbox"/>
-                <p>Chromatic Orb</p>
-                <p>Evocation</p>
-                <p>1 action</p>
-                <p>90 feet</p>
-                <p>V, S, M (a diamond worth at least 50gp)</p>
-                <p>Instantaneous</p>
-                <p>1d10 piercing damage</p>
-                <p>2d6 cold damage (dex save)</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc">
-                <p>You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose.</p>
-                <p><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
-                <p><i><b>Spell Lists.</b></i> Sorcerer, Wizard</p>
-            </div>
-        </div>
-
-        <div class="spell">
-            <div class="spell_top odd">
-                <input type="checkbox" checked/>
-                <p>Alarm</p>
-                <p>Abjuration</p>
-                <p>1 minute (ritual)</p>
-                <p>30 feet</p>
-                <p>V, S, M (a tiny bell and a piece of silver wire)</p>
-                <p>8 hours</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc odd">
-                <p>You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won’t set off the alarm. You also choose whether the alarm is mental or audible.</p>
-                <p>A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.</p>
-                <p><i><b>Spell Lists.</b></i> Artificer, Ranger, Wizard</p>
-            </div>
-        </div>
-
-        <div class="spell">
-            <div class="spell_top">
-                <input type="checkbox"/>
-                <p>Find Familiar</p>
-                <p>Conjuration</p>
-                <p>1 hour (ritual)</p>
-                <p>10 feet</p>
-                <p>V, S, M (10gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass bradier)</p>
-                <p>Instantaneous</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc">
-                <p>You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.</p>
-                <p>Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can’t attack, but it can take other actions as normal.</p>
-                <p>When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. As an action, you can temporarily dismiss your familiar to a pocket dimension. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. Whenever the familiar drops to 0 hit points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.</p>
-                <p>While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses.</p>
-                <p>You can’t have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.</p>
-                <p>Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll.</p>
-                <p><i><b>Spell Lists.</b></i> Wizard</p>
-            </div>
-        </div>
-
-
-
-        <h3>2nd Level</h3>
-
-        <h3 class="game_info">
-            <div>
-                Total Spell Slots
-                <input />
-            </div>
-            <div>
-                Used Spell Slots
-                <input />
-            </div>
-        </h3>
-
-        <div class="spell">
-            <div class="spell_top">
-                <input type="checkbox" checked/>
-                <p>Flaming Sphere</p>
-                <p>Conjuration</p>
-                <p>1 action</p>
-                <p>60 feet</p>
-                <p>V, S, M (a bit of tallow, a pinch of brimstone, and a dusting of powerdered iron)</p>
-                <p>Concentration, up to 1 minute</p>
-                <p>2d6 fire damage (dex save)</p>
-                <button class="desc_button">Desc</button>
-            </div>
-            <div class="spell_desc">
-                <p>A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.</p>
-                <p>As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere’s damage, and the sphere stops moving this turn.</p>
-                <p>When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.</p>
-                <p><i><b>At Higher Levels.</b></i> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
-                <p><i><b>Spell Lists.</b></i> Druid, Sorcerer (Optional), Wizard</p>
-            </div>
-        </div>
-
+        <aside></aside>
     </body>   
 </html>
